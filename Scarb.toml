@@ -1,0 +1,10 @@
+[package]
+name = "Braavos"
+version = "0.1.0"
+
+# See more keys and their definitions at https://docs.swmansion.com/scarb/docs/reference/manifest.html
+
+[dependencies]
+cairo_json = { git = "https://github.com/carbonable-labs/cairo-json.git", tag = "v0.1.0" }
+alexandria_ascii = { git = "https://github.com/keep-starknet-strange/alexandria.git"}
+alexandria_encoding = { git = "https://github.com/keep-starknet-strange/alexandria.git"}
